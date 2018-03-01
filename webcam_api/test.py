@@ -8,7 +8,7 @@ def main():
 	while(1):
 		im = Image.open(io.BytesIO(c.get_frame()))
 		im.show()
-		time.sleep(1)
+		time.sleep(0.5)
 
 
 if __name__ == "__main__":
