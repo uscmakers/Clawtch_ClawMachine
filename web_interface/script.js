@@ -59,9 +59,10 @@ $( document ).ready(function() {
 
 			$('#buttons').hide().show(0);
 
-			exec_command(auto ? 1 : 0);
+			//exec_command(auto ? 1 : 0);
 		});
 
+		/*
 		$("#throw").click(function() {
 			alert("Throw");
 			exec_command(2);
@@ -71,7 +72,7 @@ $( document ).ready(function() {
 			alert("Dispense");
 			exec_command(3);
 		});
-
+		*/
 
 
 });

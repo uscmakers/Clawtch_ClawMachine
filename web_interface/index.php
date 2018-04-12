@@ -11,6 +11,21 @@
 
 <title>Fetch</title>
 
+<?php
+if ($_GET['throw']) {
+  exec("/path/to/name.sh");
+}
+if ($_GET['dispense']) {
+  exec("/path/to/name.sh");
+}
+if ($_GET['auto']) {
+  exec("/path/to/name.sh");
+}
+if ($_GET['init']) {
+  exec("/path/to/name.sh");
+}
+?>
+
 </head>
 
 
@@ -27,9 +42,9 @@
 		</div>
 
 		<div id="buttons">
-			<button id="throw" href="#" class="button toggle">Throw Ball</button>
-			<button id="dispense" href="#" class="button toggle">Dispense Treat</button>
-			<button id="auto" href="#" class="button toggle grey">Auto: Off</button>
+			<button id="throw" href="?throw=true" class="button toggle">Throw Ball</button>
+			<button id="dispense" href="?dispense=true" class="button toggle">Dispense Treat</button>
+			<button id="auto" href="?auto=true" class="button toggle grey">Auto: Off</button>
 		</div>
 
 	</div>
